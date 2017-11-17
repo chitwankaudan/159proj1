@@ -1,0 +1,14 @@
+name: sunion
+
+dependencies:
+  - python=3.6.2
+  - numpy=1.13.1
+  - pandas=0.20.3
+  - matplotlib=2.0.2
+  - seaborn=0.8.0
+  - scipy=0.19.1
+  - jupyter
+  - pytables
+  - nltk
+  - pip:
+    - ipykernel
