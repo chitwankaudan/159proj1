@@ -17,4 +17,3 @@ clean:
 	rm -f fig/*.png
 	rm -f results/*.h5
 	rm -f results/*.db
-	rm -f *.nbconvert.ipynb
