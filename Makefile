@@ -7,9 +7,9 @@ all :
 	jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute state_of_the_union_analysis-p1.ipynb
 	jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute state_of_the_union_analysis-p2.ipynb
 	jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute state_of_the_union_analysis-p3.ipynb
-	#jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute state_of_the_union_analysis-p4.ipynb
-	#jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute state_of_the_union_analysis-p5.ipynb
-	#jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute main.ipynb
+	jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute state_of_the_union_analysis-p4.ipynb
+	jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute state_of_the_union_analysis-p5.ipynb
+	jupyter nbconvert --ExecutePreprocessor.timeout=3600 --to notebook --execute main.ipynb
 
 #Create a phony clean target to remove saved variables and figures
 .PHONY : clean
