@@ -1,4 +1,6 @@
-# Project #2, an analysis of the State of the Union speeches
+# An analysis of the State of the Union speeches
+
+> *Note:* For full analysis and results, please read main.ipynb.
 
 > *Note:* thanks to professor Deb Nolan for providing a previous version of this project along with a solution outline in R.  Some of these notes are taken from her version.
 
